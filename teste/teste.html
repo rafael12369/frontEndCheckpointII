@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/teste.css">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+    <nav class="nav-bar">
+        <!-- Adição da logo -->
+        <div class="logo">
+            <div>
+                <img src="img/fly-games-branco-oficial.svg" alt="Logo - Fly Games">
+            </div>
+            <!-- <h1 class="titulo-logo">Fly Games</h1> -->
+        </div>
+        <!-- Adição do menu -->
+        <div class="nav-list">
+            <ul>
+                <li class="nav-item"><a href="#inicio" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#item2" class="nav-link">Sobre Nós</a></li>
+                <li class="nav-item"><a href="#item3" class="nav-link">Games</a></li>
+                <li class="nav-item"><a href="#item3" class="nav-link">Suporte</a></li>
+            </ul>
+        </div>
+        <!-- Adição de imagem para o menu sanduíche (versão mobile) -->
+        <div class="mobile-menu-icon">
+            <!-- Criação da função menuShow() para o JS -->
+            <button onclick="menuShow()"><img class="icon" src="img/menu_white_36dp.svg" alt="Imagem do Menu Mobile"></button>
+        </div>
+    </nav>
+    <!-- Adição do menu mobile -->
+    <div class="mobile-menu">
+        <ul>
+            <li class="nav-item"><a href="#inicio" class="nav-link">Início</a></li>
+            <li class="nav-item"><a href="#item2" class="nav-link">Item 2</a></li>
+            <li class="nav-item"><a href="#item3" class="nav-link">Item 3</a></li>
+        </ul>
+</header>
+<script src="js/menu.js"></script>
+    <!-- Adição do conteúdo principal -->
+    <main>
+        <section class="welcome">
+            <div>
+                <h1>
+                    Suba de Nível com Fly Games
+                </h1>
+            </div>
+        </section>
+    </main>
+
+
+</body>
+</html>
