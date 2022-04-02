@@ -6,6 +6,10 @@
     font-family: arial, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .contato {
     display: flex;
     justify-content: center;

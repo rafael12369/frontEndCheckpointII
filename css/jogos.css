@@ -7,6 +7,10 @@
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     height: 100vh;
 }
@@ -70,7 +74,7 @@ header {
 
 /* .nav-item a:hover {
     color: white;
-/* } */ Vamos trocar por uma animação de expandir */
+/* } /* Vamos trocar por uma animação de expandir */
 
 .nav-link {
     text-decoration: none;
@@ -147,6 +151,15 @@ header {
   font-size: 30px;
   text-decoration: none;
   margin-top: 3%;
+  transition-property: padding;
+  transition-duration: 0.5s;
+  transition-delay: 200ms;
+}
+
+.bt_jogar:hover
+{
+ padding-left: 55px;   
+ padding-right: 55px;
 }
 
 .glassf {
