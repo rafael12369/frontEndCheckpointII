@@ -11,6 +11,10 @@ body {
     height: 100vh;
 }
 
+a {
+    text-decoration: none;
+}
+
 header {
     background-color: #ffffff;
     box-shadow: 0px 3px 10px #61154e;
@@ -20,6 +24,7 @@ header {
 }
 
 .nav-bar {
+    background: rgba( 0, 0, 0, 0.45 );
     box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
     backdrop-filter: blur( 16.5px );
     -webkit-backdrop-filter: blur( 16.5px );
@@ -161,4 +166,94 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 1.5rem 6rem;
+}
+
+.display_center {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.h1_prod {
+    margin-top: 50px;
+    color: #6c6c6c;
+}
+
+.display_center_space {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.cards {
+    margin-top: 50px;   
+    border-radius: 20px;
+    transition-duration: 0.4s !important;
+    cursor: pointer;
+}
+
+.cards img {
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.cards:hover {
+    /* background: linear-gradient(115deg, rgba(97,21,78,1) 0%, rgba(44,55,109,1) 61%); */
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
+}
+
+.img_fh {
+    background-image: url(/img/for-honor.png);
+    background-size: cover;
+    border-radius: 20px;
+    width: 450px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_cod {
+    background-image: url(/img/cod.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    width: 450px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo_jgs {
+    margin-top: 10px;
+    margin-left: 8px;
+    color: #6c6c6c;
+}
+
+svg {
+    color: rgb(180, 162, 0);
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+.rodape {
+    background-image: url('/img/1169862.jpg');
+    background-size: cover;
+    width: 98vw;
+    height: 300px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.glass_rodape {
+    width: 500px;
+    height: 250px;
+    background: rgb(48 48 48 / 40%);
+    backdrop-filter: blur( 10.5px );
+    -webkit-backdrop-filter: blur( 10.5px );
+    border-radius: 20px;
+    margin: 1%;
 }
