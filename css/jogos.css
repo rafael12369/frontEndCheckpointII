@@ -134,11 +134,22 @@ header {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  background-attachment: fixed;
+  -webkit-box-shadow: inset 0px 0px 50px 50px rgba(0,0,0,0.6); 
+  box-shadow: inset 0px 0px 50px 50px rgba(0,0,0,0.6);
+  filter: blur(0.2px);
+}
+
+.bg-escuro {
+    background-color: #202225;
 }
 
 .h1_home {
   color: white;
   text-align: center;
+  text-decoration: solid;
+  font-size: 40px; line-height: 1.6em;
+  text-shadow: 2px 4px 5px black;
 }
 
 .bt_jogar {
@@ -151,15 +162,17 @@ header {
   font-size: 30px;
   text-decoration: none;
   margin-top: 3%;
-  transition-property: padding;
-  transition-duration: 0.5s;
-  transition-delay: 200ms;
+  transition-property: padding, text;
+  transition-duration: 0.25s;
+  transition-delay: 100ms;
 }
 
 .bt_jogar:hover
 {
- padding-left: 55px;   
- padding-right: 55px;
+ padding-left: 65px;   
+ padding-right: 65px;
+ color: white;
+ background: rgba(80, 0, 255, 1);
 }
 
 .glassf {
