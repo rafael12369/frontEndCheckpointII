@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/login.css" rel="stylesheet">
-    <title>Login</title>
+    <link href="css/register.css" rel="stylesheet" >
+    <title>Registro</title>
     
 </head>
 <body>
@@ -13,20 +13,37 @@
     <section class="contato">
         
         <form class="form" method="POST" action="contato.html">
+            
             <div class="icon-fly-games">
                 <img src="img/fly-games-logo-oficial.svg" alt="Fly Games - Logo">
             </div>
+
+            <div class="row">
+                <input type="name" class="input" name="name" placeholder="Nome" required>
+            </div>
+
+            <div class="row">
+                <input type="tel" class="input" name="password" placeholder="Telefone" pattern="[0-9]{11}" required>
+            </div>
+
             <div class="row">
                 <input type="email" class="input" name="email" placeholder="E-mail" required>
             </div>
+
             <div class="row">
-                <input type="password" class="input" name="password" placeholder="Senha" required>
+                <input type="password" class="input" name="email" placeholder="Senha" required>
             </div>
+
+            <div class="row">
+                <input type="password" class="input" name="email" placeholder="Confirme a senha" required>
+            </div>
+
             <div class="row">
                 <input type="submit" class="btn" name="enviar" value="Entrar">
             </div>
+        
             <div class="register">
-                <p class="text-register">Não tem conta?<a href="register.html"> Registre-se</a></p>
+                <p class="text-register">Já possui uma conta?<a href="login.html"> Login</a></p>
 
             </div>
         </form>
