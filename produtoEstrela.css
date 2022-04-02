@@ -31,11 +31,7 @@
 
 }
 
-.botao{
-    color: rgb(251, 249, 252);
-    background-color: rgb(27, 37, 180);
-    padding: 10px;
-}
+
 .star{
     list-style-type: none;
     
@@ -67,3 +63,36 @@
     transform: scale(1.20);
     
 }
+
+@media(max-width: 750px){
+    .paiDa_div{
+        display: grid;
+        grid-template-columns: 30% 30% 30% ;
+        grid-template-rows: 20% 20% 20% 20% 20% 20% 20%;   
+    }
+}
+
+@media(max-width: 595px){
+    .paiDa_div{
+        display: grid;
+        grid-template-columns: 45% 45%;
+        grid-template-rows: 15% 15% 15% 15% 15% 15% 15% 15% 15% 15%;
+        margin-left: 19%;   
+    }
+}
+
+@media(max-width: 380px){
+    .paiDa_div{
+        display: grid;
+        grid-template-columns: 100% ;
+        grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+        margin-left: 25%;   
+    }
+}
+
+@media(max-width: 300px){
+    .paiDa_div{
+        margin-left: 25vw;
+    }
+}
+    
