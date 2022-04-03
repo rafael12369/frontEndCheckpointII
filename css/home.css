@@ -36,6 +36,7 @@ header {
     align-items: center;
 }
 
+
 .logo img {
     width: 100px;
     height: 50px;
@@ -178,6 +179,7 @@ a {
     align-content: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin-bottom: 60px;
 }
 
 .cards {
@@ -207,6 +209,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .img_cod {
