@@ -8,7 +8,7 @@
 }
 
 header {
-    background-color: white;
+    background-color: purple;
     /* box-shadow: 0px 3px 10px #61154e; */
     position: fixed;
     width: 100%;
@@ -80,7 +80,7 @@ header {
 }
 
 /* Quando a tela estiver no tamanho de 755px ou maior, o botão não aparecerá. Neste caso, também já está compatível com a resolução 425px requisitada para esta atividade. */
-@media screen and (max-width: 755px) {
+@media screen and (max-width: 980px) {
     .nav-bar {
         padding: 1.5rem 4rem;
     }
@@ -105,13 +105,14 @@ header {
         display: block;
         padding-top: 1.2rem;
     }
+
     /* Classe open com o display block, ou seja, quando essa classe for adicionada ao nosso menu, ele aparecerá  */
     .open {
         display: block;
     }
 }
 
-.welcome {
+/* .welcome {
         width: 100%;
         height: 500px;
         background-image: url('/img/1169862.jpg');
@@ -128,4 +129,4 @@ header {
     margin-right: 7%;
     color: rgb(245, 245, 245);
     font-size: 32px;
-}
+} */
