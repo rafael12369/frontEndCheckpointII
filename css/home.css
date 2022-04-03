@@ -13,11 +13,11 @@ html {
 
 body {
     height: 100vh;
+    background-color: #1c1f28;
 }
 
 header {
-    background-color: purple;
-    box-shadow: 0px 3px 10px #000000;
+    background: rgba( 0, 0, 0, 0.15 );
     position: fixed;
     width: 100%;
     z-index: 1
@@ -27,6 +27,8 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 1.5rem 6rem;
+    backdrop-filter: blur(13px);
+    background: rgba( 0, 0, 0, 0.45 );
 }
 
 .logo {
@@ -50,6 +52,8 @@ header {
     justify-content: center;
     list-style: none;
     margin-bottom: 0;
+    align-content: center;
+    align-items: center;
 }
 
 .nav-item {
@@ -63,8 +67,10 @@ header {
 .nav-link {
     text-decoration: none;
     font-size: 1.15rem;
-    /* color: #61154e; */
     font-weight: 400;
+}
+.branc_bt_nav {
+    color: #bbbbbb;
 }
 
 .mobile-menu-icon {
@@ -97,6 +103,9 @@ header {
         flex-direction: column;
         text-align: center;
         padding-bottom: 1rem;
+        backdrop-filter: blur( 13px );
+        -webkit-backdrop-filter: blur( 13px );
+        background: rgba( 0, 0, 0, 0.45 );
     }
     .mobile-menu .nav-item {
         display: block;
@@ -150,7 +159,7 @@ a {
 
 .h1_prod {
     margin-top: 50px;
-    color: #6c6c6c;
+    color: rgb(171 171 171);
 }
 
 .display_center_space {
@@ -203,7 +212,7 @@ a {
 .titulo_jgs {
     margin-top: 10px;
     margin-left: 8px;
-    color: #6c6c6c;
+    color: rgb(171 171 171);
 }
 
 svg {
@@ -233,7 +242,7 @@ svg {
 }
 
 .li_home {
-    color: rgb(187, 187, 187);
+    color: #d1d1d1;
 }
 
 .glass_cx_home {
@@ -246,3 +255,4 @@ svg {
     padding: 5vh;
     background: rgba( 0, 0, 0, 0.15 );
 }
+
