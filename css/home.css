@@ -149,6 +149,17 @@ a {
     font-size: 30px;
     text-decoration: none;
     margin-top: 3%;
+    transition-property: padding, text;
+    transition-duration: 0.25s;
+    transition-delay: 100ms;
+}
+
+.bt_jogar:hover
+{
+ padding-left: 65px;   
+ padding-right: 65px;
+ color: white;
+ background: rgba(80, 0, 255, 1);
 }
 
 .display_center {
