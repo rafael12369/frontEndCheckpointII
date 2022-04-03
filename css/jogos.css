@@ -13,6 +13,7 @@ html {
 
 body {
     height: 100vh;
+    background-color: #1c1f28;
 }
 
 header {
@@ -68,9 +69,8 @@ header {
     font-size: 1.15rem;
     font-weight: 400;
 }
-.branc_bt_nav {
-    color: #bbbbbb;
-}
+
+
 
 .mobile-menu-icon {
     display: none; 
@@ -120,6 +120,8 @@ header {
 a {
     text-decoration: none;
 }
+
+
 
 .img_home {
   background-image: url('../img/CapaGodofWAR.jpg');
@@ -186,5 +188,4 @@ a {
     justify-content: space-between;
     padding: 1.5rem 6rem;
 }
-
 
