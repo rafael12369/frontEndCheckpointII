@@ -36,6 +36,7 @@ header {
     align-items: center;
 }
 
+
 .logo img {
     width: 100px;
     height: 50px;
@@ -131,6 +132,10 @@ a {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    background-attachment: fixed;
+    -webkit-box-shadow: inset 0px 0px 50px 50px rgba(0,0,0,0.6); 
+    box-shadow: inset 0px 0px 50px 50px rgba(0,0,0,0.6);
+    filter: blur(0.2px);
 }
 
 .h1_home {
@@ -149,6 +154,17 @@ a {
     font-size: 30px;
     text-decoration: none;
     margin-top: 3%;
+    transition-property: padding, text;
+    transition-duration: 0.25s;
+    transition-delay: 100ms;
+}
+
+.bt_jogar:hover
+{
+ padding-left: 65px;   
+ padding-right: 65px;
+ color: white;
+ background: rgba(80, 0, 255, 1);
 }
 
 .display_center {
@@ -167,6 +183,7 @@ a {
     align-content: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin-bottom: 60px;
 }
 
 .cards {
@@ -196,6 +213,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .img_z2 {
