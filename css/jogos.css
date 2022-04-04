@@ -135,11 +135,11 @@ a {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  /* background-size: contain; */
 }
 @media (max-width: 600px) {
     .img_home {
         background-image: url('/img/j1_apex_legends.jpg');
+        background-size: contain;
     }
  }
 .bg-escuro {
