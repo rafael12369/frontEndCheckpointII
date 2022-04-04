@@ -139,7 +139,7 @@ a {
 @media (max-width: 600px) {
     .img_home {
         background-image: url('/img/j1_apex_legends.jpg');
-        background-size: contain;
+        background-size: cover;
     }
  }
 .bg-escuro {
