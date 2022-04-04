@@ -137,11 +137,11 @@ a {
   align-items: center;
   /* background-size: contain; */
 }
-@media (min-width: 500px) {
-    .img_home{
+@media (max-width: 600px) {
+    .img_home {
         background-image: url('/img/j1_apex_legends.jpg');
     }
-
+ }
 .bg-escuro {
     background-color: #1c1f28;
 }
