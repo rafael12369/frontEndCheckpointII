@@ -209,3 +209,50 @@ a {
 iframe {
     width: 400px;
 }
+.link-name
+              {
+                text-decoration: none;
+                color: white;
+              }
+    
+              #backgound-footer
+              {
+                background: rgb(47, 38, 45);
+                background: linear-gradient(115deg, rgba(97,21,78,1) 0%, rgba(44,55,109,1) 61%);
+              }
+
+
+
+
+.img_rodape {
+    background-image: url(/img/1169862.jpg);
+    background-attachment: fixed;
+    max-width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+
+
+
+
+
+/* vini----------------------------------- */
+
+
+
+/* rafa ------------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
