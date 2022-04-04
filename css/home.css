@@ -187,8 +187,8 @@ a {
 
 }
 
-.img_fh {
-    background-image: url(/img/for-honor.png);
+.img_z1 {
+    background-image: url(/img/z1_starfild.jpg);
     background-size: cover;
     border-radius: 20px;
     width: 450px;
@@ -198,8 +198,52 @@ a {
     align-items: center;
 }
 
-.img_cod {
-    background-image: url(/img/cod.jpg);
+.img_z2 {
+    background-image: url(/img/z2_God-of-War-Ragnarok.webp);
+    background-size: cover;
+    border-radius: 20px;
+    width: 450px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_z3 {
+    background-image: url(/img/z3_capsule_616x353.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    width: 450px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_z4 {
+    background-image: url(/img/z4_cod-mw2-2022.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    width: 450px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_z5 {
+    background-image: url(/img/z5_maxresdefault.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    width: 450px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_z6 {
+    background-image: url(/img/z6_stalker-2.webp);
     background-size: cover;
     border-radius: 20px;
     width: 450px;

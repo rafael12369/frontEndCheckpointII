@@ -13,25 +13,22 @@ html {
 
 body {
     height: 100vh;
+    background-color: #1c1f28;
 }
 
 header {
-    background-color: #ffffff;
-    box-shadow: 0px 3px 10px #61154e;
+    background: rgba( 0, 0, 0, 0.15 );
     position: fixed;
     width: 100%;
     z-index: 1
 }
 
 .nav-bar {
-    box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
-    backdrop-filter: blur( 16.5px );
-    -webkit-backdrop-filter: blur( 16.5px );
-    position: absolute;
-    width: 100%;
     display: flex;
     justify-content: space-between;
-    z-index: 1;
+    padding: 1.5rem 6rem;
+    backdrop-filter: blur(13px);
+    background: rgba( 0, 0, 0, 0.45 );
 }
 
 .logo {
@@ -40,32 +37,23 @@ header {
 }
 
 .logo img {
-    width: 60px;
-    height: 60px;
-}
-
-.logo h1 {
-    color: #bbbbbb;
-    font-size: 25px;
-    margin-left: 30px;
-    margin-right: 30px;
+    width: 100px;
+    height: 50px;
 }
 
 .nav-list {
     display: flex;
     justify-content: center;
     list-style: none;
-}
-
-.nav-list {
-    display: flex;
-    align-items: center;
 }
 
 .nav-list ul {
     display: flex;
     justify-content: center;
     list-style: none;
+    margin-bottom: 0;
+    align-content: center;
+    align-items: center;
 }
 
 .nav-item {
@@ -74,13 +62,15 @@ header {
 
 /* .nav-item a:hover {
     color: white;
-/* } /* Vamos trocar por uma animação de expandir */
+/* } */ Vamos trocar por uma animação de expandir */
 
 .nav-link {
     text-decoration: none;
     font-size: 1.15rem;
-    color: #61154e;
     font-weight: 400;
+}
+.branc_bt_nav {
+    color: #bbbbbb;
 }
 
 .mobile-menu-icon {
@@ -93,9 +83,9 @@ header {
 }
 
 /* Quando a tela estiver no tamanho de 755px ou maior, o botão não aparecerá. Neste caso, também já está compatível com a resolução 425px requisitada para esta atividade. */
-@media screen and (max-width: 755px) {
+@media screen and (max-width: 980px) {
     .nav-bar {
-        /* padding: 1.5rem 4rem; */
+        padding: 1.5rem 4rem;
     }
     .nav-item {
         display: none;
@@ -104,7 +94,7 @@ header {
         display: block;
     }
     .mobile-menu-icon button {
-        background-color: #61154e;
+        background-color: transparent;
         border: none;
         cursor: pointer;
     }
@@ -113,35 +103,40 @@ header {
         flex-direction: column;
         text-align: center;
         padding-bottom: 1rem;
+        backdrop-filter: blur( 13px );
+        -webkit-backdrop-filter: blur( 13px );
+        background: rgba( 0, 0, 0, 0.45 );
     }
     .mobile-menu .nav-item {
         display: block;
         padding-top: 1.2rem;
     }
+
     /* Classe open com o display block, ou seja, quando essa classe for adicionada ao nosso menu, ele aparecerá  */
     .open {
         display: block;
     }
 }
 
+a {
+    text-decoration: none!important;
+}
+
 .img_home {
-  background-image: url('/img/godofwar.jpg');
-  background-position: center;
+  background-image: url('/img/a1_apex_legends.jpg');
+  background-attachment: fixed;
   max-width: 100%;
-  height: 650px;
+  height: 100vh;
   background-size: cover;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-attachment: fixed;
-  -webkit-box-shadow: inset 0px 0px 50px 50px rgba(0,0,0,0.6); 
-  box-shadow: inset 0px 0px 50px 50px rgba(0,0,0,0.6);
-  filter: blur(0.2px);
+  background-size: contain;
 }
 
 .bg-escuro {
-    background-color: #202225;
+    background-color: #1c1f28;
 }
 
 .h1_home {
@@ -149,7 +144,6 @@ header {
   text-align: center;
   text-decoration: solid;
   font-size: 40px; line-height: 1.6em;
-  text-shadow: 2px 4px 5px black;
 }
 
 .bt_jogar {
@@ -190,4 +184,21 @@ header {
     padding: 1.5rem 6rem;
 }
 
+.glass_cx_home {
+    backdrop-filter: blur( 13px );
+    -webkit-backdrop-filter: blur( 13px );
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh;
+    background: rgba( 0, 0, 0, 0.45 );
+}
 
+.branc_bt_nav {
+    color: #bbbbbb!important;
+}
+
+iframe {
+    width: 400px;
+}
