@@ -208,6 +208,7 @@ a {
 
 iframe {
     width: 400px;
+    border-radius: 20px;
 }
 .link-name
               {
@@ -221,9 +222,6 @@ iframe {
                 background: linear-gradient(115deg, rgba(97,21,78,1) 0%, rgba(44,55,109,1) 61%);
               }
 
-
-
-
 .img_rodape {
     background-image: url(/img/1169862.jpg);
     background-attachment: fixed;
@@ -232,7 +230,7 @@ iframe {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
+
 }
 
 
