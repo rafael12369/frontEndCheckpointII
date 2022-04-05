@@ -1,73 +1,85 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/home.css">
-    <title>Home</title>
-</head>
-<body>
-  <header>
-    <nav class="nav-bar">
-          <!-- Adição da logo -->
-          <div class="logo">
-              <div>
-                  <img src="/img/fly-games-branco-oficial.svg" alt="Logo - Fly Games">
-              </div>
-              <!-- <h1 class="titulo-logo">Fly Games</h1> -->
-          </div>
-          <!-- Adição do menu -->
-          <div class="nav-list">
-              <ul>
-                  <li class="nav-item"><a href="#inicio" class="nav-link branc_bt_nav">Início</a></li>
-                  <li class="nav-item"><a href="#item2" class="nav-lin branc_bt_nav">Sobre</a></li>
-                  <li class="nav-item"><a href="#item3" class="nav-link branc_bt_nav">Games</a></li>
-                  <li class="nav-item"><a href="#item3" class="nav-link branc_bt_nav">Lançamentos</a></li>
-                  <li class="nav-item"><a href="#item4" class="nav-link branc_bt_nav">Suporte</a></li>
-                  <li class="nav-item"><a href="#item5" class="nav-link branc_bt_nav">Registrar</a></li>
-                  <li class="nav-item"><a href="#item6" class="nav-link branc_bt_nav">Entrar</a></li>
-              </ul>
-          </div>
-          <!-- Adição de imagem para o menu sanduíche (versão mobile) -->
-          <div class="mobile-menu-icon">
-              <!-- Criação da função menuShow() para o JS -->
-              <button onclick="menuShow()"><img class="icon" src="/img/menu_white_36dp.svg" alt="Imagem do Menu Mobile"></button>
-          </div>
-    </nav>
-    <!-- Adição do menu mobile -->
-    <div class="mobile-menu">
-        <ul>
-            <li class="nav-item"><a href="#inicio" class="nav-link branc_bt_nav">Início</a></li>
-            <li class="nav-item"><a href="#item2" class="nav-link branc_bt_nav">Sobre</a></li>
-            <li class="nav-item"><a href="#item3" class="nav-link branc_bt_nav">Games</a></li>
-            <li class="nav-item"><a href="#item3" class="nav-link branc_bt_nav">Lançamentos</a></li>
-            <li class="nav-item"><a href="#item4" class="nav-link branc_bt_nav">Suporte</a></li>
-            <li class="nav-item"><a href="#item5" class="nav-link branc_bt_nav">Registrar</a></li>
-            <li class="nav-item"><a href="#item6" class="nav-link branc_bt_nav">Entrar</a></li>
-        </ul>
-</header>
-<script src="/js/menu.js"></script>
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <title>Sobre nós</title>
+  </head>
+  <body class="container">
+    <style> 
+    
+        body {
+          background: rgb(97,21,78);
+          background: linear-gradient(115deg, rgba(97,21,78,1) 0%, rgba(44,55,109,1) 61%);
+          height: 100vh;
+        }
 
-<main>
-    <div class="col-lg-12">
-        <div class="img_home">
-          <div class="glass_cx_home">
-              <h1 class="h1_home">Jogue na nuvem com mais de 100 jogos</br>com a Fly Games!</h1>
-            </br></br>
-              <ul>
-                <li class="li_home"><p>Acesso a mais de 100 jogos de PC, XB e PS</br>de alta qualidade</p></li>
-                <li class="li_home"><p>Novos jogos adicionados a todo o momento</p></li>
-                <li class="li_home"><p>Títulos da Fly Games Studios quando estrearem</p></li>
-                <li class="li_home"><p>Descontos e ofertas exclusivos para membros</p></li>
-              </ul>
-              <a class="bt_jogar"href="#">Assine já!</a>
+        </style>
+
+    <div class="text-light p-3">      
+        <h1 class="">Sobre nós!</h1>
+        <p class="text-justify">FlyGames é uma provedora global de jogos multiplataforma via streaming sediada em São Paulo, e que atualmente possui mais de 220 milhões de assinantes. Fundada em 2022 no Brasil, a empresa surgiu como pioneira em oferecer jogos de TODAS as plataformas, via streaming.</p>
+    </div>
+
+
+    <h1 class="text-light">A equipe Flygames é formada por:</h1>
+    <div class="card-group text-light">       
+        <div class="card">
+          <img src="https://media-exp1.licdn.com/dms/image/C4E03AQG5dB0HX6J_Yg/profile-displayphoto-shrink_800_800/0/1645855884876?e=1654732800&v=beta&t=X1nLUZeDo1evlbAVXPQaXtlYJrchyPrPPNAYQMTJsAs" class="card-img-top" alt="Foto de Thiago Freitas">
+          <div class="card-body">
+            <h5 class="card-title">Thiago Freitas</h5>
+            <p class="card-text">Pai do CSS!</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
         </div>
+        <div class="card">
+          <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEdElm0a0JuUQ/profile-displayphoto-shrink_800_800/0/1645940417760?e=1654732800&v=beta&t=qp0YO-sIkzl2ot4Worhd-8iIjFIlWWmkKO972ypbNMc" class="card-img-top" alt="Foto de Rodrigo Ferreira">
+          <div class="card-body">
+            <h5 class="card-title">Rodrigo Ferreira</h5>
+            <p class="card-text">Pai do Wordpress!</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://media-exp1.licdn.com/dms/image/C4E03AQEs2PphxHGX8Q/profile-displayphoto-shrink_800_800/0/1644254254006?e=2147483647&v=beta&t=EeqZOYLRi8DqktMw33hFXalKdeTdU2AlBN7st4UMJEU" class="card-img-top" alt="Foto de Rafael Martínez">
+          <div class="card-body">
+            <h5 class="card-title">Rafael Martínez</h5>
+            <p class="card-text">Pai do Bootstrap!</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+            <img src="https://media-exp1.licdn.com/dms/image/D5635AQERBtAJnmhA3A/profile-framedphoto-shrink_800_800/0/1645545412677?e=1649102400&v=beta&t=wtRD8WN9qSlAXzExBUnhv_13hXmQBOn9J87RL3dfdbY" class="card-img-top" alt="Vinicius Felce">
+            <div class="card-body">
+              <h5 class="card-title">Vinicius Felce</h5>
+              <p class="card-text">Deus do Front!</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://static3.depositphotos.com/1000401/119/i/450/depositphotos_1197351-stock-photo-great-image-of-flaming-skull.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Jhonatan Souza</h5>
+              <p class="card-text">Pai do Empreendedorismo!</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
       </div>
-    </div>
-    <div class="col-lg-12">
-        <div class="display_center">
-            <h1 class="h1_prod">Destaques</h1>
-        </div>
-    </div>
+
+      <style> 
+    
+        .card {
+            background: rgba( 0, 0, 0, 0.4 );
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 4px );
+            -webkit-backdrop-filter: blur( 4px );
+            border-radius: 10px;
+            border: 1px solid rgba( 255, 255, 255, 0.18 );
+        }
+        </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+  </body>
+</html>
