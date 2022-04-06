@@ -183,7 +183,7 @@ a {
     align-content: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-bottom: 60px;
+    margin-bottom: 0%;
 }
 
 .cards {
