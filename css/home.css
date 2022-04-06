@@ -290,16 +290,6 @@ svg {
 
 }
 
-.glass_rodape {
-    width: 500px;
-    height: 250px;
-    background: rgb(48 48 48 / 40%);
-    backdrop-filter: blur( 10.5px );
-    -webkit-backdrop-filter: blur( 10.5px );
-    border-radius: 20px;
-    margin: 1%;
-}
-
 .li_home {
     color: #d1d1d1;
 }
