@@ -122,16 +122,6 @@ a {
     text-decoration: none;
 }
 
-.img_home {
-    background-image: url('/img/1169862.jpg');
-    max-width: 100%;
-    height: 100vh;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
 
 .h1_home {
     color: rgb(187, 187, 187);
@@ -167,4 +157,36 @@ a {
     align-content: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+
+.img_rodape {
+    /* background-image: url(/img/1169862.jpg); */
+    background-attachment: fixed;
+    max-width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.glass_rodape {
+    width: 500px;
+    height: 250px;
+    background: rgb(48 48 48 / 40%);
+    backdrop-filter: blur( 10.5px );
+    -webkit-backdrop-filter: blur( 10.5px );
+    border-radius: 20px;
+    margin: 1%;
+}
+
+.glass_cx_home {
+    backdrop-filter: blur( 13px );
+    -webkit-backdrop-filter: blur( 13px );
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh;
+    background: rgba( 0, 0, 0, 0.15 );
 }
