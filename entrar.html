@@ -4,12 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/login.css" rel="stylesheet">
+    <link href="css/entrar.css" rel="stylesheet">
     <link rel = "shortcut icon" type = "" href = "/img/fly-games-branco-oficial.svg"/>
-    <title>Fly Games | Login</title>
+    <title>Fly Games | Entrar</title>
     
 </head>
 <body>
+    <header>
+        <nav class="nav-bar">
+              <!-- Adição da logo -->
+              <div class="logo">
+                  <div>
+                      <a href="home.html"><img src="/img/fly-games-branco-oficial.svg" alt="Logo - Fly Games"></a>
+                  </div>
+              </div>
+              <!-- Adição do menu -->
+              <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="/home.html" class="nav-link branc_bt_nav btn btn-outline-dark">Início</a></li>
+                    <li class="nav-item"><a href="/sobre.html" class="nav-link branc_bt_nav btn btn-outline-dark">Sobre</a></li>
+                    <li class="nav-item"><a href="/home.html#item3" class="nav-link branc_bt_nav btn btn-outline-dark">Games</a></li>
+                    <li class="nav-item"><a href="/home.html#item3_1" class="nav-link branc_bt_nav btn btn-outline-dark">Lançamentos</a></li>
+                    <li class="nav-item"><a href="/suporte.html" target="_blank" class="nav-link branc_bt_nav btn btn-outline-dark">Suporte</a></li>
+                    <li class="nav-item"><a href="/registrar.html" target="_blank" class="nav-link branc_bt_nav btn btn-outline-dark">Registrar</a></li>
+                    <li class="nav-item"><a href="/entrar.html" target="_blank" class="nav-link branc_bt_nav btn btn-outline-dark">Entrar</a></li>
+                </ul>
+            </div>
+            <!-- Adição de imagem para o menu sanduíche (versão mobile) -->
+            <div class="mobile-menu-icon">
+                <!-- Criação da função menuShow() para o JS -->
+                <button onclick="menuShow()"><img class="icon" src="/img/menu_white_36dp.svg" alt="Imagem do Menu Mobile"></button>
+            </div>
+      </nav>
+      <!-- Adição do menu mobile -->
+      <div class="mobile-menu">
+          <ul>
+              <li class="nav-item"><a href="/home.html" class="nav-link branc_bt_nav">Início</a></li>
+              <li class="nav-item"><a href="/sobre.html" class="nav-link branc_bt_nav">Sobre</a></li>
+              <li class="nav-item"><a href="/home.html#item3" class="nav-link branc_bt_nav">Games</a></li>
+              <li class="nav-item"><a href="/home.html#item3_1" class="nav-link branc_bt_nav">Lançamentos</a></li>
+              <li class="nav-item"><a href="/suporte.html" target="_blank" class="nav-link branc_bt_nav">Suporte</a></li>
+              <li class="nav-item"><a href="/registrar.html" target="_blank" class="nav-link branc_bt_nav">Registrar</a></li>
+              <li class="nav-item"><a href="/entrar.html" target="_blank" class="nav-link branc_bt_nav">Entrar</a></li>
+          </ul>
+    </header>
+    <script src="/js/menu.js"></script>
     <main>
     <section class="contato">
         
